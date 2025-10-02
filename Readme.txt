@@ -1,7 +1,0 @@
-<<<<<<< HEAD
-PROSPECT MK - ALL RIGHTS RESERVED
-
-=======
-PROSPECT MK - ALL RIGHTS RESERVED
-
->>>>>>> 7a2d10e (prospect site)
