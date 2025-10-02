@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Contact - Prospect</title>
+  <meta name="description" content="Schedule a free call">
+  <meta name="keywords" content="careers, jobs, hiring, remote work, prospect">
+
+  <!-- Favicons -->
+  <link href="assets/img/plogo.png" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+    <style>
+    /* General Form Styling */
+    .form-control {
+      padding-left: 40px; /* Make room for icons */
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      transition: all 0.3s ease-in-out;
+      background-color: #f9f9f9;
+    }
+
+    .form-control:focus {
+      border-color: var(--accent-color);
+      box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+      background-color: #ffffff;
+    }
+
+    .form-label {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .form-icon {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      color: var(--accent-color);
+      font-size: 1.2rem;
+    }
+
+    input[type="text"], input[type="email"], select, textarea {
+      padding-left: 40px;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    textarea:focus {
+      background-color: #ffffff;
+    }
+
+    /* Form Row Layout */
+    .row.g-3 {
+      margin-bottom: 15px;
+    }
+
+    .row.g-3 .col-md-6 {
+      margin-bottom: 20px;
+    }
+
+    button[type="submit"] {
+      background-color: var(--accent-color);
+      color: #fff;
+      border-radius: 30px;
+      padding: 12px 30px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border: none;
+      transition: background-color 0.3s ease;
+    }
+
+    button[type="submit"]:hover {
+      background-color:var(--accent-color);
+    }
+
+    /* Hover Effect on Form Fields */
+    .form-control:hover {
+      border-color: var(--accent-color);
+    }
+
+    /* Message Textarea */
+    textarea {
+      height: 200px;
+    }
+
+    /* Add some margin to the form container */
+    .card {
+      margin-top: 30px;
+    }
+
+  </style>
+</head>
+
+<body class="conact-page">
+
+  <!-- Header -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center"><img src="assets/img/prospectlogo.png" alt="" class="logo-img"> </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+                <li class="dropdown"><a href="services.html" ><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="IT-teams.html">IT & Software Teams</a></li>
+                  <li><a href="sales-teams.html">Sales & Lead Generation</a></li>
+                  <li><a href="marketing-teams.html">Marketing Teams</a></li>
+                  <li><a href="customer-support-teams.html">Customer Support</a></li>
+                  <li><a href="hr-teams.html">HR & Operations</a></li>
+                  <li><a href="design-teams.html">Design Teams</a></li>
+                </ul>
+          </li>
+           <li><a href="pricing.html">Pricing</a></li>
+           <li><a href="careers.html">Careers</a></li>
+              <li class="nav-cta"> <a href="contact.html" class="cta-link active">Get In Touch</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <div class="page-title dark-background d-flex align-items-center" style="background-image: url(assets/img/design-banner.jpg);" data-aos="fade">
+      <div class="container text-center">
+        <h1 class="fw-bold">Contact</h1>
+        <p class="lead"> Reach out with questions or feedback 📬</p>
+      </div>
+    </div>
+
+  <!-- Contact Section -->
+    <section id="contact" class="section py-5 bg-white text-dark">
+      <div class="container" data-aos="fade-up">
+
+        <!-- Section Header -->
+        <div class="text-center mb-5">
+          <p class="lead text-muted">We’d love to hear about your project! Fill out the form or reach us directly — we’ll respond within 24 hours.</p>
+        </div>
+
+        <div class="row g-5 align-items-stretch">
+
+          <!-- Image Column -->
+          <div class="col-lg-6 d-none d-lg-block">
+            <div class="h-100 w-100 rounded-3 overflow-hidden shadow-sm">
+              <img src="assets/img/deal.jpg" alt="Contact Prospect" class="img-fluid h-100 w-100 object-fit-cover">
+            </div>
+          </div>
+
+          <!-- Form Column -->
+          <div class="col-lg-6">
+            <div class="card border-0 shadow-sm p-4 h-100">
+              <h3 class="mb-4 text-center">Send Us a Message</h3>
+
+            <form action="https://formsubmit.co/sales@prospectmk.com" method="POST" class="php-email-form">
+                <!-- Hidden settings -->
+               <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+                <div class="row gy-3">
+
+                  <!-- Name -->
+                  <div class="col-md-6">
+                    <label for="name" class="form-label">Your Name</label>
+                    <div class="position-relative">
+                      <i class="bi bi-person-fill form-icon"></i>
+                      <input type="text" name="name" id="name" class="form-control ps-5" required>
+                    </div>
+                  </div>
+
+                  <!-- Email -->
+                  <div class="col-md-6">
+                    <label for="email" class="form-label">Your Email</label>
+                    <div class="position-relative">
+                      <i class="bi bi-envelope-fill form-icon"></i>
+                      <input type="email" name="email" id="email" class="form-control ps-5" required>
+                    </div>
+                  </div>
+
+                  <!-- Team Size -->
+                  <div class="col-md-6">
+                    <label for="team-size" class="form-label">Team Size</label>
+                    <div class="position-relative">
+                      <i class="bi bi-people-fill form-icon"></i>
+                      <select class="form-select ps-5" name="team-size" id="team-size" required>
+                        <option value="" disabled selected>Select</option>
+                        <option value="1">1</option>
+                        <option value="2-5">2-5</option>
+                        <option value="10-15">10-15
+                        <option value="15+">15+</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <!-- Service -->
+                  <div class="col-md-6">
+                    <label for="service" class="form-label">Service Required</label>
+                    <div class="position-relative">
+                      <i class="bi bi-briefcase-fill form-icon"></i>
+                      <select class="form-select ps-5" name="service" id="service" required>
+                        <option value="" disabled selected>Select</option>
+                        <option value="IT & Software Teams">IT & Software Teams</option>
+                        <option value="Sales & Lead Generation">Sales & Lead Generation</option>
+                        <option value="Marketing Teams">Marketing Teams</option>
+                        <option value="Customer Support">Customer Support</option>
+                        <option value="HR & Operations">HR & Operations</option>
+                        <option value="Design Teams">Design Teams</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <!-- Timeframe -->
+                  <div class="col-md-12">
+                    <label for="timeframe" class="form-label">Project Start Time</label>
+                    <div class="position-relative">
+                      <i class="bi bi-calendar-event-fill form-icon"></i>
+                      <select class="form-select ps-5" name="timeframe" id="timeframe" required>
+                        <option value="" disabled selected>When would you like to start?</option>
+                        <option value="ASAP">ASAP</option>
+                        <option value="1-2 months">1-2 months</option>
+                        <option value="2 months+">2 months+</option>
+                        <option value="Unsure">Unsure</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <!-- Subject -->
+                  <div class="col-12">
+                    <label for="subject" class="form-label">Subject</label>
+                    <div class="position-relative">
+                      <i class="bi bi-card-text form-icon"></i>
+                      <input type="text" name="subject" id="subject" class="form-control ps-5" required>
+                    </div>
+                  </div>
+
+                  <!-- Message -->
+                  <div class="col-12">
+                    <label for="message" class="form-label">Message</label>
+                    <div class="position-relative">
+                      <i class="bi bi-chat-text-fill form-icon"></i>
+                      <textarea name="message" id="message" rows="5" class="form-control ps-5" placeholder="Tell us about your project..." required></textarea>
+                    </div>
+                  </div>
+
+                  <!-- Submit -->
+                  <div class="col-12 text-center mt-4">
+                    <button type="submit" class="btn btn-primary btn-lg px-5">Send Message</button>
+                  </div>
+
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+ <!-- Footer -->
+  <footer id="footer" class="footer light-background">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center"><span class="sitename">Prospect</span></a>
+            <p>Prospect connects businesses with top remote talent from Eastern Europe. Simple, affordable, and reliable outsourcing.</p>
+            <div class="social-links d-flex mt-4">
+              <a href="https://www.linkedin.com/company/prospectmk/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12 footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="careers.html">Careers</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-12 footer-contact">
+            <h4>Contact Us</h4>
+            <p>Skopje 1000, North Macedonia</p>
+            <p><strong>Email:</strong> <span>sales@prospectmk.com</span></p>
+            <p><strong>Phone:</strong> <span>+389 78 468 200</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright text-center">
+      <p>© <strong class="px-1 sitename">Prospect</strong> All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Vendor JS -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("contactForm");
+
+    form.addEventListener("submit", function (e) {
+      const name = form.querySelector("#name");
+      const email = form.querySelector("#email");
+      const subject = form.querySelector("#subject");
+      const message = form.querySelector("#message");
+      const teamSize = form.querySelector("#team-size");
+      const service = form.querySelector("#service");
+      const timeframe = form.querySelector("#timeframe");
+
+      let isValid = true;
+      let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+      // Helper to show error
+      function showError(input, message) {
+        input.classList.add("is-invalid");
+        input.classList.remove("is-valid");
+
+        let errorEl = input.nextElementSibling;
+        if (!errorEl || !errorEl.classList.contains("invalid-feedback")) {
+          errorEl = document.createElement("div");
+          errorEl.className = "invalid-feedback";
+          input.parentNode.appendChild(errorEl);
+        }
+        errorEl.innerText = message;
+        isValid = false;
+      }
+
+      // Helper to mark as valid
+      function showSuccess(input) {
+        input.classList.remove("is-invalid");
+        input.classList.add("is-valid");
+        let errorEl = input.nextElementSibling;
+        if (errorEl && errorEl.classList.contains("invalid-feedback")) {
+          errorEl.remove();
+        }
+      }
+
+      // Clear validation state
+      isValid = true;
+
+      // Validate Name
+      if (name.value.trim() === "") {
+        showError(name, "Please enter your name.");
+      } else {
+        showSuccess(name);
+      }
+
+      // Validate Email
+      if (!emailRegex.test(email.value.trim())) {
+        showError(email, "Please enter a valid email.");
+      } else {
+        showSuccess(email);
+      }
+
+      // Validate Subject
+      if (subject.value.trim() === "") {
+        showError(subject, "Please enter a subject.");
+      } else {
+        showSuccess(subject);
+      }
+
+      // Validate Message
+      if (message.value.trim().length < 10) {
+        showError(message, "Message should be at least 10 characters.");
+      } else {
+        showSuccess(message);
+      }
+
+      // Validate Selects
+      if (teamSize.value === "") {
+        showError(teamSize, "Please select a team size.");
+      } else {
+        showSuccess(teamSize);
+      }
+
+      if (service.value === "") {
+        showError(service, "Please select a service.");
+      } else {
+        showSuccess(service);
+      }
+
+      if (timeframe.value === "") {
+        showError(timeframe, "Please select a timeframe.");
+      } else {
+        showSuccess(timeframe);
+      }
+
+      if (!isValid) {
+        e.preventDefault(); // Prevent form submission
+        window.scrollTo({ top: form.offsetTop - 100, behavior: "smooth" });
+      }
+    });
+  });
+</script>
+
+</body>
+
+</html>
