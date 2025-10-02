@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Pricing - Prospect</title>
+  <meta name="description" content="Simple and transparent pricing for outsourcing with Prospect. Build remote teams without hidden fees.">
+  <meta name="keywords" content="outsourcing pricing, remote hiring costs, staff augmentation pricing">
+
+  <!-- Favicons -->
+  <link href="assets/img/plogo.png" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="pricing-page">
+
+  <!-- Header -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center"><img src="assets/img/prospectlogo.png" alt="" class="logo-img"> </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown"><a href="services.html"><span>Services</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="IT-teams.html">IT & Software Teams</a></li>
+              <li><a href="sales-teams.html">Sales & Lead Generation</a></li>
+              <li><a href="marketing-teams.html">Marketing Teams</a></li>
+              <li><a href="customer-support-teams.html">Customer Support</a></li>
+              <li><a href="hr-teams.html">HR & Operations</a></li>
+              <li><a href="design-teams.html">Design Teams</a></li>
+            </ul>
+          </li>
+           <li><a href="pricing.html" class="active">Pricing</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li class="nav-cta"> <a href="contact.html" class="cta-link">Get In Touch</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade"
+      style="background-image: url(assets/img/services-bg.jpg);">
+      <div class="container text-center">
+        <h1>Transparent Pricing</h1>
+        <p>Simple. Fair. No hidden markups. Pay only for salaries + fixed fees.</p>
+      </div>
+    </div>
+
+
+    <!-- Key Benefits: No Upfront Fees, Monthly Contracts, 0% Markup -->
+    <section class="py-5">
+      <div class="container" data-aos="fade-up">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Why Choose Prospect?</h2>
+          <p class="lead">
+            We believe in simplicity, flexibility, and transparency. Here's why our pricing model works for you:
+          </p>
+        </div>
+
+        <div class="row justify-content-center gy-4">
+          <div class="col-md-4">
+            <div class="card shadow-sm rounded-3">
+              <div class="card-body">
+                <h5 class="fw-bold">No Upfront Fees</h5>
+                <p class="text-muted">Start building your remote team without any initial payments. Pay only for what you use.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow-sm rounded-3">
+              <div class="card-body">
+                <h5 class="fw-bold">Flexible Monthly Contracts</h5>
+                <p class="text-muted">We work with flexible 30-day contracts, giving you the freedom to scale your team as needed without long-term commitments.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow-sm rounded-3">
+              <div class="card-body">
+                <h5 class="fw-bold">0% Markup + Fixed Service Fee</h5>
+                <p class="text-muted">There are no hidden markups on salaries. We charge a simple, fixed service fee. That's it.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- Yearly Remote Staff Costs -->
+<section class="py-5" style="background:#f9fafb;">
+  <div class="container" data-aos="fade-up">
+
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Approximate Yearly Remote Staff Costs</h2>
+      <p class="text-muted lead">
+        Transparent estimates for full-time professionals with 3+ years of experience.  
+        Costs include salaries, workspace, and support services.
+      </p>
+      <p class="text-muted mb-0" style="max-width:600px; margin: 0 auto;">
+        Our competitive pricing allows you to save up to <strong>65%</strong> compared to onshore costs, while ensuring top-quality talent and full support for your remote team.
+      </p>
+    </div>
+
+    <!-- Card -->
+    <div class="card shadow-lg border-0 rounded-4 p-5" style="max-width: 900px; margin: 0 auto;">
+      <div class="row justify-content-center gy-4">
+
+        <div class="col-md-4">
+          <label class="fw-semibold mb-3">Choose a Service</label>
+          <select id="serviceSelect" class="form-select form-select-lg shadow-sm">
+            <option selected disabled>Select a Service</option>
+            <option value="it">IT & Software</option>
+            <option value="marketing">Marketing</option>
+            <option value="sales">Sales</option>
+            <option value="support">Customer Support</option>
+            <option value="hr">HR & Operations</option>
+          </select>
+        </div>
+
+        <div class="col-md-4">
+          <label class="fw-semibold mb-3">Choose a Role</label>
+          <select id="roleSelect" class="form-select form-select-lg shadow-sm">
+            <option selected disabled>Select a Role</option>
+          </select>
+        </div>
+
+        <div class="col-md-4">
+          <label class="fw-semibold mb-3">Currency</label>
+          <select id="currencySelect" class="form-select form-select-lg shadow-sm">
+            <option value="usd" selected>USD ($)</option>
+            <option value="eur">EUR (€)</option>
+            <option value="cad">CAD (C$)</option>
+            <option value="gbp">GBP (£)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Result -->
+      <div id="costResult" class="text-center mt-5" style="display:none;">
+        <div class="card border-0 shadow-sm p-4 rounded-3 bg-white">
+          <h4 id="roleTitle" class="fw-bold mb-3" style="color: var(--accent-color);"></h4>
+          <p class="mb-2"><strong>Onshore Cost:</strong> <span id="onshoreCost"></span></p>
+          <p class="mb-2"><strong>With Prospect:</strong> <span id="prospectCost"></span></p>
+          <p class="mb-0"><strong>Your Savings:</strong> <span id="savings" class="text-success fs-5"></span></p>
+        </div>
+        <div class="mt-4">
+          <a href="contact.html" class="btn btn-cta-primary">Talk To Sales</a>
+        </div>
+        <p class="text-muted text-center mt-3 small" style="max-width: 700px; margin: 0 auto;">
+  <em>Note: The figures above are general estimates. Final pricing may vary based on role seniority, required skill sets, language proficiency, and other job-specific factors.</em>
+</p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+<!-- FAQ Section -->
+<section class="py-5 bg-light">
+  <div class="container" data-aos="fade-up">
+    <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+    <div class="accordion" id="faqAccordion">
+
+      <!-- Existing FAQs -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq1">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1Content">
+            What’s included in the monthly fee?
+          </button>
+        </h2>
+        <div id="faq1Content" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            The fee covers payroll, compliance, HR support, and administrative costs. You only pay actual employee
+            salaries + fixed monthly fee.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#faq2Content">
+            Do you charge any hidden markups on salaries?
+          </button>
+        </h2>
+        <div id="faq2Content" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            No. We operate with full transparency. You pay salaries directly + Prospect’s fixed service fee.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#faq3Content">
+            Can I scale my team up or down?
+          </button>
+        </h2>
+        <div id="faq3Content" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes. You can start with one hire and scale to full squads depending on your company’s needs.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq4">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#faq4Content">
+            Do I need to sign a long-term contract?
+          </button>
+        </h2>
+        <div id="faq4Content" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            No. We work on flexible 30-day terms. Our partnership is performance-driven — you continue with us as long
+            as we deliver results. This ensures accountability and adaptability on both sides.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq5">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#faq5Content">
+            How do you ensure IT security and data protection?
+          </button>
+        </h2>
+        <div id="faq5Content" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            We align with your company’s IT and security policies. Controls can include restricting USB/print access,
+            managing website permissions, enforcing secure configurations, and remote wiping of devices when needed. Most
+            work is cloud-based, so devices are only secure endpoints. We also maintain backup internet connections to
+            guarantee business continuity.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq6">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#faq6Content">
+            How is intellectual property (IP) protected?
+          </button>
+        </h2>
+        <div id="faq6Content" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            We take IP protection seriously. By hiring carefully, offering competitive salaries, and creating a stable
+            work environment, we reduce the risk of turnover and misconduct. On top of that, we apply strict data loss
+            prevention systems, including safeguards to stop sensitive files from leaving the organization. Most data
+            leaks are accidental, and we put measures in place to minimize those risks.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq7">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#faq7Content">
+            How does Prospect manage office facilities for offshore staff?
+          </button>
+        </h2>
+        <div id="faq7Content" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            As your team grows, we can establish a dedicated, branded office with secure access that mirrors your company’s culture and values. This setup not only supports performance but also attracts top talent who appreciate high-quality working conditions.
+            We don’t believe in overcrowded workspaces. Instead, we focus on providing a comfortable, productive environment.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq8">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#faq8Content">
+            What is your approach to HR and staff discipline?
+          </button>
+        </h2>
+        <div id="faq8Content" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Our HR approach is designed around your needs — fair, firm, and flexible. After probation, we follow a structured three-strike system, but if you feel a team member isn’t the right fit, we act quickly to resolve the situation, ensuring your team stays productive and aligned with your goals.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq9">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#faq9Content">
+            Why should I outsource with Prospect?
+          </button>
+        </h2>
+        <div id="faq9Content" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Many companies explore outsourcing to reduce costs, scale efficiently, and access top talent — without
+            compromising on performance. At Prospect, we make that possible through a proven process that combines cost
+            savings with reliable, high-quality results.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+      <!-- Call to Action -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+      <img src="assets/img/office5.webp" alt="">
+      <div class="overlay"></div>
+      <div class="container text-center" data-aos="zoom-in">
+        <h3>Ready to Scale Your Team at Half the Cost?</h3>
+        <p>Simple contracts, fast onboarding, and ongoing support with Prospect.</p>
+        <div class="d-flex justify-content-center gap-3 mt-3">
+          <a class="btn-cta-primary" href="contact.html">Book a Call</a>
+          <a class="btn-cta-secondary" href="services.html">Learn More</a>
+        </div>
+        <div class="text-light mt-3 small">No long-term lock-ins. Cancel anytime.</div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer light-background">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center"><span class="sitename">Prospect</span></a>
+            <p>Prospect connects businesses with top remote talent from Eastern Europe. Simple, affordable, and reliable
+              outsourcing.</p>
+            <div class="social-links d-flex mt-4">
+              <a href="https://www.linkedin.com/company/prospectmk/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12 footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="careers.html">Careers</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-12 footer-contact">
+            <h4>Contact Us</h4>
+            <p>Skopje 1000, North Macedonia</p>
+            <p><strong>Email:</strong> <span>sales@prospectmk.com</span></p>
+            <p><strong>Phone:</strong> <span>+389 78 468 200</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright text-center">
+      <p>© <strong class="px-1 sitename">Prospect</strong> All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Vendor JS -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+<script>
+  // Currency conversion rates (approx, update when needed)
+  const rates = {
+    usd: 1,
+    eur: 0.95,
+    cad: 1.36,
+    gbp: 0.82
+  };
+
+  // Service -> Roles + Costs
+  const data = {
+  it: {
+    engineer: { title: "Software Engineer", onshore: 100000, prospect: 45000, savings: "≈ 55%" },
+    frontend: { title: "Frontend Developer", onshore: 90000, prospect: 42000, savings: "≈ 53%" },
+    backend: { title: "Backend Developer", onshore: 95000, prospect: 43000, savings: "≈ 55%" },
+    qa: { title: "QA Specialist", onshore: 80000, prospect: 37000, savings: "≈ 54%" },
+    pm: { title: "IT Project Manager", onshore: 105000, prospect: 52000, savings: "≈ 50%" }
+  },
+  marketing: {
+    specialist: { title: "Marketing Specialist", onshore: 65000, prospect: 27000, savings: "≈ 58%" },
+    manager: { title: "Digital Marketing Manager", onshore: 80000, prospect: 38000, savings: "≈ 52%" },
+    designer: { title: "Graphic Designer", onshore: 60000, prospect: 26000, savings: "≈ 57%" },
+    seo: { title: "SEO Specialist", onshore: 70000, prospect: 34000, savings: "≈ 51%" }
+  },
+  sales: {
+    sdr: { title: "Sales Development Rep", onshore: 70000, prospect: 32000, savings: "≈ 54%" },
+    am: { title: "Account Manager", onshore: 90000, prospect: 43000, savings: "≈ 52%" },
+    closer: { title: "Sales Executive / Closer", onshore: 95000, prospect: 41000, savings: "≈ 57%" }
+  },
+  support: {
+    agent: { title: "Customer Support Agent", onshore: 45000, prospect: 21000, savings: "≈ 53%" },
+    lead: { title: "Support Team Lead", onshore: 60000, prospect: 28000, savings: "≈ 53%" }
+  },
+  hr: {
+    recruiter: { title: "Talent Acquisition Specialist", onshore: 65000, prospect: 26000, savings: "≈ 60%" },
+    ops: { title: "HR & Operations Manager", onshore: 80000, prospect: 36000, savings: "≈ 55%" }
+  }
+};
+
+  const serviceSelect = document.getElementById("serviceSelect");
+  const roleSelect = document.getElementById("roleSelect");
+  const currencySelect = document.getElementById("currencySelect");
+
+  // Populate roles dynamically when service is chosen
+  serviceSelect.addEventListener("change", function () {
+    roleSelect.innerHTML = '<option selected disabled>Select a Role</option>';
+    const roles = data[this.value];
+    if (roles) {
+      Object.keys(roles).forEach(roleKey => {
+        const opt = document.createElement("option");
+        opt.value = roleKey;
+        opt.textContent = roles[roleKey].title;
+        roleSelect.appendChild(opt);
+      });
+    }
+  });
+
+  // Show costs when role + currency selected
+  roleSelect.addEventListener("change", showCosts);
+  currencySelect.addEventListener("change", showCosts);
+
+  function showCosts() {
+    const serviceKey = serviceSelect.value;
+    const roleKey = roleSelect.value;
+    const currency = currencySelect.value;
+
+    if (serviceKey && roleKey && currency) {
+      const role = data[serviceKey][roleKey];
+      const rate = rates[currency];
+
+      const format = (value) => {
+        let symbol = "$";
+        if (currency === "eur") symbol = "€";
+        if (currency === "cad") symbol = "C$";
+        if (currency === "gbp") symbol = "£";
+        return symbol + (value * rate).toLocaleString();
+      };
+
+      document.getElementById("roleTitle").textContent = role.title;
+      document.getElementById("onshoreCost").textContent = format(role.onshore);
+      document.getElementById("prospectCost").textContent = format(role.prospect);
+      document.getElementById("savings").textContent = role.savings;
+      document.getElementById("costResult").style.display = "block";
+    }
+  }
+</script>
+
+</body>
+
+</html>
