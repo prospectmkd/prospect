@@ -1,3 +1,0 @@
-# Redirect root domain to www subdomain
-http://prospectmk.com/* https://www.prospectmk.com/:s 301!
-https://prospectmk.com/* https://www.prospectmk.com/:s 301!
